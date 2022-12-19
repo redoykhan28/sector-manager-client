@@ -1,0 +1,93 @@
+.r1 {
+
+    margin-top: 100px;
+}
+
+.primary-text {
+
+    color: #708CD5;
+}
+
+.primary-bg {
+
+    background-color: #708CD5;
+}
+
+.secondary-text {
+
+    color: #EC7764;
+}
+
+.secondary-bg {
+
+    background-color: #EC7764;
+}
+
+.bt:hover {
+
+    background-color: gray;
+}
+
+.clr2 {
+
+    color: #FF625E;
+}
+
+.signUpbtn {
+    width: 100%;
+    background-color: #FF625E;
+    color: white;
+}
+
+.signUpbtn:hover {
+
+    background-color: #C32D4B;
+    color: white;
+}
+
+.loginCard {
+
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.loginCard2 {
+
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding-top: 70px;
+    background-color: #1B1834;
+    color: white;
+
+}
+
+.logbtn {
+
+    width: 100%;
+    background-color: #7C48CE;
+    color: white;
+}
+
+.logbtn:hover {
+
+    background-color: #6d1dee;
+    color: white;
+
+}
+
+
+
+
+/* phone  */
+@media screen and (max-width:576px) {
+
+    .loginCard {
+
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 160px;
+    }
+
+}

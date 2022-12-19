@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "group": "Manufacturing",
+        "option": [
+            {
+                "op1": {
+                    "label": "construction Metarial",
+                    "sub": []
+                },
+                "op2": {
+                    "label": "Electronics and optics",
+                    "sub": []
+                },
+                "op3": {
+                    "label": "Food and Beverage",
+                    "sub": [
+                        {
+                            "so1": "Bakery and Confectionary Product",
+                            "so2": "Beverages",
+                            "so3": "Fish and Fish Product",
+                            "so4": "Meat and Meat product",
+                            "so5": "Milk and Dairy Product",
+                            "so6": "other",
+                            "so7": "Sweet and snanks Food"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "group": "Furniture",
+        "option": [
+            {
+                "op1": {
+                    "label": "Bathroom/sauna",
+                    "sub": []
+                },
+                "op2": {
+                    "label": "Bedroom",
+                    "sub": []
+                },
+                "op3": {
+                    "label": "Childrens room",
+                    "sub": []
+                },
+                "op4": {
+                    "label": "kitchen",
+                    "sub": []
+                },
+                "op5": {
+                    "label": "Living room",
+                    "sub": []
+                },
+                "op6": {
+                    "label": "office",
+                    "sub": []
+                },
+                "op7": {
+                    "label": "other",
+                    "sub": []
+                },
+                "op8": {
+                    "label": "project furniture",
+                    "sub": []
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "group": "Marchinery",
+        "option": [
+            {
+                "op1": {
+                    "label": "Marchinery components",
+                    "sub": []
+                },
+                "op2": {
+                    "label": "Marchinery Equipments/tools",
+                    "sub": []
+                },
+                "op3": {
+                    "label": "Manufacture of machinery ",
+                    "sub": []
+                },
+                "op4": {
+                    "label": "Maritime",
+                    "sub": [
+                        {
+                            "so1": "Aluminum and stell workboad",
+                            "so2": "Boat/Yatch buillding",
+                            "so3": "Ship repair and convention"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]
