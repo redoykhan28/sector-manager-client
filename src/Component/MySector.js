@@ -9,7 +9,7 @@ const MySector = () => {
     const [sectors, setSector] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/mySector?email=${user.email}`)
+        fetch(`https://sector-form-server.vercel.app/mySector?email=${user.email}`)
             .then(res => res.json())
             .then(data => setSector(data))
     }, [user])

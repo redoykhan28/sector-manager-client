@@ -38,7 +38,7 @@ function App() {
         {
           path: '/update/:id',
           element: <Update></Update>,
-          loader: ({ params }) => fetch(`http://localhost:5000/mySector/update/${params.id}`)
+          loader: ({ params }) => fetch(`https://sector-form-server.vercel.app/mySector/update/${params.id}`)
         },
       ]
     },

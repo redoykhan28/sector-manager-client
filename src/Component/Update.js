@@ -16,7 +16,7 @@ const Update = () => {
     const [options, setOptions] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/sectors')
+        fetch('https://sector-form-server.vercel.app/sectors')
             .then(res => res.json())
             .then(data => setOptions(data))
     }, [])
@@ -34,7 +34,7 @@ const Update = () => {
 
         const info = { name, agrement, sector }
 
-        fetch(`http://localhost:5000/update/${userInfo._id}`, {
+        fetch(`https://sector-form-server.vercel.app/update/${userInfo._id}`, {
 
             method: "PUT",
             headers: {

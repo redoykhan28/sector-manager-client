@@ -29,7 +29,7 @@ const Home = () => {
         const info = { name, email, agrement, sector }
         console.log(info)
 
-        fetch('http://localhost:5000/userSector', {
+        fetch('https://sector-form-server.vercel.app/userSector', {
 
             method: "POST",
             headers: {
@@ -53,7 +53,7 @@ const Home = () => {
     const [options, setOptions] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/sectors')
+        fetch('https://sector-form-server.vercel.app/sectors')
             .then(res => res.json())
             .then(data => setOptions(data))
     }, [])
